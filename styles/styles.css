@@ -1,0 +1,143 @@
+
+/* Default Body Styles  */
+body {
+  width: 400px;
+  height: 500px;
+  margin: 0.1em;
+  display: flex;
+  flex-direction: column;
+
+  font-size: .8em;
+  /* font-family: "Courier New", Courier, monospace; */
+
+  color: rgb(44, 44, 44);
+
+  background-color: rgb(255, 255, 255);
+}
+
+.icon {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+.bigIcon {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.bigIcon:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+::-webkit-scrollbar {
+  height: .2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu {
+  padding: 0.05em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleBar {
+  font-size: 1.1em;
+  text-align: center;
+  padding: 0px 0.2em 0px 0.2em;
+  color: rgb(241, 241, 241);
+  background-color: rgb(116, 199, 255);
+}
+
+.baseLayout {
+  padding: .5em;
+  flex: 1;
+  display: flex;
+}
+
+.selectionBar {
+  padding: .5em;
+  padding-top: .6em;
+  overflow-x: scroll;
+  display: flex;
+  flex: 1;
+}
+
+.selection {
+  min-width: 8em;
+  text-align: center;
+  position: relative;
+  margin-right: .3em;
+}
+
+.slow {
+  transition-duration: .2s;
+}
+
+.purpleTint {
+  background-color: rgba(7, 0, 68, 0.09);
+}
+
+.lighter {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.darker {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.softBorder {
+  border-radius: .2em;
+}
+
+.clickableChildren:hover div {
+  background-color: rgba(0, 0, 255, .3);
+}
+
+.clickableChildren:active div {
+  background-color: rgba(0, 0, 255, .5);
+}
+
+.outlined {
+  outline: 1px solid; 
+  outline-color: black;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.additionButton {
+  padding-top: 35%;
+  flex: 1;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  background-color: rgba(0, 0, 255, .5);
+}
+
+.additionButton:hover {
+  background-color: rgba(0, 0, 255, .3);
+}
+
+.additionButton:active {
+  background-color: rgba(0, 0, 255, .5);
+}
+
+.flexDisplay {
+  display: flex;
+}
+
+.imgHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.normalText {
+  font-size: 1em;
+}
